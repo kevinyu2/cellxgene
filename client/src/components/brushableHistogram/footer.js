@@ -41,7 +41,7 @@ const HistogramFooter = React.memo(
             style={{ fontStyle: "italic" }}
           >
             {isObs && displayName}
-            {isGeneSetSummary && "gene set mean expression"}
+            {isGeneSetSummary && "gene set mean"}
           </span>
           <div style={{ display: hideRanges ? "block" : "none" }}>
             : {rangeMin}
